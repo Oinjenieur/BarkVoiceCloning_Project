@@ -1,0 +1,50 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Fichiers de modèles (potentiellement grands)
+models/*
+!models/.gitkeep
+
+# Fichiers générés lors de l'exécution
+output_*.wav
+*.wav
+
+# Environnements virtuels
+venv/
+ENV/
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDEs et éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Fichiers de cache et logs
+.cache/
+logs/
+*.log 
